@@ -17,6 +17,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'draper'
 gem 'autoprefixer-rails'
 gem 'slim'
+gem 'bootstrap'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails'

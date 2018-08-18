@@ -1,0 +1,6 @@
+@import "bootstrap";
+<% @base_dir = Rails.root.join('app/assets/stylesheets') %>
+<% Dir[File.join(@base_dir, "/**/*.scss")].each do |stylesheet| %>
+  <% next if File.directory?(stylesheet) %>
+  @import "<%= stylesheet.gsub("#{@base_dir}/", '') %>";
+<% end %>
