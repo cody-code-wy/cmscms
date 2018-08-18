@@ -32,3 +32,6 @@
 
 # Ignore rspec persistance file
 spec/examples.txt
+
+# Ignore code coverage file
+coverage/*
