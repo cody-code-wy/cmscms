@@ -19,6 +19,7 @@ gem 'autoprefixer-rails'
 gem 'slim'
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'kaminari'
 
 group :development, :test do
   gem 'rspec-rails'
