@@ -20,6 +20,7 @@ gem 'slim'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'kaminari'
+gem 'responders'
 
 group :development, :test do
   gem 'rspec-rails'
