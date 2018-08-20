@@ -20,6 +20,9 @@ gem 'slim'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'kaminari'
+gem 'responders'
+gem 'decent_exposure', '~> 3.0.0'
+gem 'decent_decoration', '~> 0.1.0'
 
 group :development, :test do
   gem 'rspec-rails'
