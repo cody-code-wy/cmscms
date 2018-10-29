@@ -1,9 +1,27 @@
-# Unstable.tech official Rails Template
+# CMSCMS
+##### Cleburne Maker Space Content Management System
+###### or Custom Maker Space Content Management System
 
-## Bootstrapping new project
+This is designed to be a general purpose content management system designed primarily for makerspaces, originally designed for the needs of Cleburne Maker Space in Cleburne, TX.
 
-run `git clone git@github.com:Unstable-Tech/rails-base.git name_of_new_app`
+---
 
-and change origin to appropriate for project
+## Stack
 
-Run `rails g rename:into name_of_new_app` to rename all application assets
+CMSCMS is designed to source user management via an external LDAP server and not provide any facility for creating new users within the application.
+
+CMSCMS is designed primarily to use postgresql and functionality with other database systems is not tested.
+
+CMSCMS uses Rspec for unit and integration testing, along with Jasmine for JavaScript unit testing
+
+---
+
+## Models
+
+- User (profile linked to LDAP profile)
+- Post
+  - Comment
+- Files
+  - Images
+- Events
+  - Class
