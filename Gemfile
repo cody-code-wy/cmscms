@@ -23,8 +23,11 @@ gem 'kaminari'
 gem 'responders'
 gem 'decent_exposure', '~> 3.0.0'
 gem 'decent_decoration', '~> 0.1.0'
+gem 'omniauth'
+gem 'omniauth-ldap'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'rspec-rails'
   gem 'jasmine-rails'
   gem 'factory_bot_rails'
