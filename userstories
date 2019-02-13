@@ -1,0 +1,57 @@
+# High Priority
+
+## Nouns
+
+- User (profile)
+- Post (blog)
+  - Comment
+- Files
+  - Images
+- Events
+  - Attrs
+    - Price
+    - Name
+    - Location
+    - Time
+    - Description
+  - Class (link to Files)
+
+## Static Location Pages
+
+- `/` welcome
+- `/about` about page
+- `/contact` contact page
+
+#### Logins and Profiles
+
+- as a user I can create a new account and profile
+- as a user I can authenticate with my username and password
+  - as a user who has forgotten my password I can reset my password by email
+- as a user I can view my profile
+- as a user I can change my profile
+  - as a user I can change my full name on my profile
+  - as a user I can change my password on my profile
+  - as a user I can change my email address on my profile
+
+#### Site Management
+
+- as an admin I can view all info on all users
+- as an admin I can create posts
+- as an admin I can update post
+- as an admin I can update posts to allow comments
+- as an admin I can update posts to allow comments after admin approval
+- as an admin I can update posts to dissallow comments
+- an an admin I can create Comments where commets are disallowed without respecting approval requirements
+- as a user I can create Comments on Posts
+- as a user I can create Comments on Comments
+- as a user I can update My Comments
+- as a user I can delete My Comments
+- as an admin I can delete any comments
+- as an admin I can create Files
+- as an admin I can delete Files
+- as an adimn I can create Images
+- as an admin I can delet Images
+
+# Medium Priority
+
+# Low Priority
